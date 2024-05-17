@@ -1,0 +1,124 @@
+<?xml version ="1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>
+</title>
+<style type="text/css">
+body{
+         background-color:pink;}
+
+.container{
+background-color:white;
+max-width:400px;
+margin: 50px;
+padding: 20px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);}
+
+.register {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px ;
+  margin: 8px ;
+}
+
+h2{
+color:red;
+}
+
+td{color:blue;
+font-weight:bold;
+font-size:14pt;
+font-family:Times New Roman;}
+
+.register:hover{
+background-color:blue;}
+
+</style>
+</head>
+<body>
+<form action="">
+<div class="container">
+<table>
+<tr>
+<th colspan="2"><h2>Registration form</h2></th>
+</tr>
+
+<tr>
+<td>Enter your name</td>
+<td><input type="text" size="20" name="name"/></td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type="email" size="20" name="email"/></td>
+</tr>
+
+<tr>
+<td>Phone Number</td>
+<td><input type="text" size="20" name="phone" maxlength="10"/></td>
+</tr>
+
+<tr>
+<td>Date of Birth</td>
+<td><input type="date" size="25" name="date"/></td>
+</tr>
+
+<tr>
+<td>Gender</td>	
+<td> <input type="radio" name="gender" value="male"/>
+Male</td>
+</tr>
+
+<tr>
+<td></td>
+<td><input type="radio" id="female" name="gender" value="female"/>
+Female</td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td><textarea id="address" name="text" rows=10 cols=20></textarea></td>
+</tr>
+
+<tr>
+<td>City</td>
+<td><input type="text" size="20" name="city"/></td>
+</tr>
+
+<tr><td>Pincode</td>
+<td><input type="text" size="20" name="pin"/></td>
+</tr>
+
+<tr>
+<td>Courses applied for</td>
+<td><input type="checkbox"  name="web" value="web"/>
+Web
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<input type="checkbox" id="check" name="c" value="c"/>C</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<input type="checkbox" id="check" name="c" value="c"/>C++</td>
+</tr>
+
+<br/>
+
+<tr>
+<td colspan="2">
+<input type="Submit" class="register" name="submit" value="Submit"/></td>
+</tr>
+
+</table>
+</div>
+</form>
+</body>
+</html>
